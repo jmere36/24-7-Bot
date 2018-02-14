@@ -19,7 +19,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'but can you do this') {
+    if (message.content === 'but can you do this?') {
     	message.reply('ideed i can: https://www.tenor.co/TyZY.gif ');
   	}
 });
