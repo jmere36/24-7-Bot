@@ -26,5 +26,14 @@ client.on('message', message => {
   }
 });
 
+client.on('message', message => {
+  // If the message is "rip"
+  if (message.content === 'rip') {
+    // Send "pong" to the same channel
+    message.channel.send('rip');
+  }
+});
+
+
 // Log our bot in
 client.login(token);
