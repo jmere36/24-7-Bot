@@ -25,8 +25,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'but can you do this?') {
-    	message.send('ideed i can: https://www.tenor.co/TyZY.gif ');
+    if (message.content === 'rip') {
+    	message.sendMessage('rip');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
