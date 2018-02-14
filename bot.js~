@@ -34,6 +34,13 @@ client.on('message', message => {
   }
 });
 
+client.on('message', message => {
+  // If the message is "my avatar"
+  if (message.content === 'my avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
+});
 
 // Log our bot in
 client.login(token);
