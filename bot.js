@@ -41,5 +41,17 @@ client.on('message', message => {
   }
 });
 
+client.on('message', message => {
+    if (message.content === 'ya') {
+    	message.reply('YEET');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'but can you do this?') {
+    	message.reply('ideed i can: https://www.tenor.co/TyZY.gif ');
+  	}
+});
+
 // Log our bot in
 client.login(token);
