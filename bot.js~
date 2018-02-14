@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'rip') {
-    	client.sendMessage('rip');
+    	client.reply('rip');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
