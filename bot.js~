@@ -24,5 +24,10 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'but can you do this?') {
+    	message.send('ideed i can: https://www.tenor.co/TyZY.gif ');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
