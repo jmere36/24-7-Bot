@@ -135,7 +135,7 @@ client.on("message", async message => {
 
 // from Discord _after_ ready is emitted
 client.on('ready', () => {
-  console.log('I am ready!');
+  console.log('JmereBot Ready!');
 });
 
 client.on('message', message => {
@@ -164,7 +164,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'but can you do this?') {
-    	message.reply('ideed i can: https://www.tenor.co/TyZY.gif ');
+    	message.reply('ideed I can: https://www.tenor.co/TyZY.gif ');
   	}
 });
 
