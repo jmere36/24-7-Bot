@@ -158,14 +158,14 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === 're') {
-    message.channel.send'reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee');
+    message.channel.send('reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee');
   }
 });
 
 
 client.on('message', message => {
     if (message.content === 'ya') {
-    	message.channel.send'YEET');
+    	message.channel.send('YEET');
   	}
 });
 
