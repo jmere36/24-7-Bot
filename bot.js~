@@ -146,7 +146,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === 'rip') {
-    message.channel.send('rip');
+    message.channel.send('f**k you got rid of the command xD');
   }
 });
 
@@ -155,6 +155,13 @@ client.on('message', message => {
     message.reply(message.author.avatarURL);
   }
 });
+
+client.on('message', message => {
+  if (message.content === 're') {
+    message.reply('reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
+  }
+});
+
 
 client.on('message', message => {
     if (message.content === 'ya') {
@@ -170,7 +177,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'help') {
-    	message.reply('Commands: what is my avatar, ya, but can you do this?, ping, help (what your on now), rip (do not use)');
+    	message.reply('Commands: what is my avatar, ya, but can you do this?, ping, help (what your on now), rip (patched), re, .say, .ping');
   	}
 });
 
