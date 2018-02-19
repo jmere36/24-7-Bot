@@ -135,7 +135,7 @@ client.on("message", async message => {
 
 // from Discord _after_ ready is emitted
 client.on('ready', () => {
-  console.log('I am ready!');
+  console.log('JmereBot Ready!');
 });
 
 client.on('message', message => {
