@@ -157,7 +157,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-  if (message.content === 're') {
+  if (message.content === 'reee') {
     message.channel.send('reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee');
   }
 });
@@ -177,7 +177,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'help') {
-    	message.reply('Commands: what is my avatar, but can you do this?, ya, re, ping, help (what your on now), rip (patched) || .say, .ping, .kick, .ban, .purge');
+    	message.reply('Commands: what is my avatar, but can you do this?, ya, reee, ping, help (what your on now), rip (patched) || .say, .ping, .kick, .ban, .purge');
   	}
 });
 

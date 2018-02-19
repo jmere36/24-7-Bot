@@ -177,7 +177,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'help') {
-    	message.reply('Commands: what is my avatar, ya, but can you do this?, ping, help (what your on now), rip (patched), re, .say, .ping');
+    	message.reply('Commands: what is my avatar, but can you do this?, ya, re, ping, help (what your on now), rip (patched) || .say, .ping, .kick, .ban, .purge');
   	}
 });
 
