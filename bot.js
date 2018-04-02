@@ -181,5 +181,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'commands') {
+    	message.reply('Commands: what is my avatar, but can you do this?, ya, reee, ping, help (what your on now), rip (patched) || .say, .ping, .kick, .ban, .purge');
+  	}
+});
+
 
 client.login(config.token);
